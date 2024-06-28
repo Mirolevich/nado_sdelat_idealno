@@ -108,8 +108,7 @@ h1:hover::before {
 
   gap: 0px;
   border-radius: 20px;
-  border: 2px;
-  border: solid;
+  border: 2px solid;
   border-color: currentColor;
   box-shadow: 0 14px 0 currentColor;
 }
