@@ -103,9 +103,11 @@ h1:hover::before {
 
   min-width: 742px;
   min-height: 142px;
-  display: grid;
   position: absolute;
-  inset: 180px 20px 562px 834px;
+  display: flex;
+  justify-content: center;
+  top: 182px;
+  right: 22px;
   word-spacing: normal;
 
   gap: 0px;
