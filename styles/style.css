@@ -104,7 +104,7 @@ h1:hover::before {
   min-height: 142px;
   display: grid;
   position: absolute;
-  inset: 180px 20px 762px 834px;
+  inset: 180px 20px 562px 834px;
   word-spacing: normal;
 
   gap: 0px;
@@ -112,5 +112,4 @@ h1:hover::before {
   border: 2px solid;
   border-color: currentColor;
   box-shadow: 0 14px 0 currentColor;
-  z-index: 4;
 }
