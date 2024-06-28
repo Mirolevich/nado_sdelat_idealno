@@ -38,6 +38,7 @@ body {
   font-family: Raleway, sans-serif;
   position: relative;
   display: flex;
+
 }
 
 h1 {
@@ -49,10 +50,12 @@ h1 {
   letter-spacing: 0.035em;
   text-align: center;
   text-transform: uppercase;
-  position: absolute;
+  position: static;
   margin-top: 60px;
+  position: static;
   word-spacing: 100vw;
   z-index: 2;
+  
 }
 
 h1::after {
@@ -70,6 +73,7 @@ video {
   object-fit: cover;
   object-position: center;
   z-index: -2;
+  position: absolute;
 }
 
 body::before {
@@ -103,7 +107,7 @@ h1:hover::before {
   min-height: 142px;
   display: grid;
   position: absolute;
-  inset: 180px 20px 562px 834px;
+  inset: 180px 20px 762px 834px;
   word-spacing: normal;
 
   gap: 0px;
