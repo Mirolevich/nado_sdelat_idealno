@@ -78,13 +78,14 @@ body::before {
   position: absolute;
   inset: 0;
   background-color: rgba(255, 255, 255, 0.3);
+  z-index: 1;
 }
 
 h1:hover {
   color: #4c4c4c;
 }
 
-.page__heading:hover::before {
+h1:hover::before {
   content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
   font-family: Raleway, Arial, sans-serif;
 
