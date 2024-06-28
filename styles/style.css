@@ -51,9 +51,8 @@ h1 {
   text-transform: uppercase;
   position: absolute;
   margin-top: 60px;
-  padding-left: 230px;
-  padding-right: 230px;
   word-spacing: 100vw;
+  z-index: 2;
 }
 
 h1::after {
@@ -70,6 +69,7 @@ video {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  z-index: -2;
 }
 
 body::before {
@@ -103,7 +103,7 @@ h1:hover::before {
   min-height: 142px;
   display: grid;
   position: absolute;
-  inset: 120px 30px 576px 900px;
+  inset: 180px 20px 562px 834px;
   word-spacing: normal;
 
   gap: 0px;
