@@ -84,7 +84,7 @@ h1:hover {
   color: #4c4c4c;
 }
 
-h1:hover::before {
+.page__heading:hover::before {
   content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
   font-family: Raleway, Arial, sans-serif;
 
