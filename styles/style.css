@@ -52,7 +52,7 @@ h1 {
   position: static;
   margin-top: 60px;
   word-spacing: 100vw;
-  z-index: 2;
+  z-index: 3;
 }
 
 h1::after {
@@ -69,7 +69,7 @@ video {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  z-index: -2;
+  z-index: 1;
   position: absolute;
 }
 
@@ -78,7 +78,7 @@ body::before {
   position: absolute;
   inset: 0;
   background-color: rgba(255, 255, 255, 0.3);
-  z-index: 1;
+  z-index: 2;
 }
 
 h1:hover {
@@ -101,8 +101,6 @@ h1:hover::before {
   letter-spacing: normal;
   color: black;
 
-  min-width: 742px;
-  min-height: 142px;
   position: absolute;
   display: flex;
   justify-content: center;

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../ono-tebe-nado"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "nado_sdelat_idealno-review"
+	}
+}
